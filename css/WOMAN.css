@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document */
+.banner{
+	padding: 0px;
+	position: relative;
+}
+.banner img{
+	width: 100%;
+}
+.banner span{
+	position: absolute;
+	left:10%;
+	top:50%;
+	z-index: 10;
+	color: white;
+}
+
+.section-heading{
+	text-align: center;
+	font-size: 1rem;
+	color: #C77000;
+	margin: 25px 0 15px 0;
+}
+.line1img1 img,.line1img2 img,.line2img1 img,.line2img2 img,.line3img img,.line4img1 img,.line4img2 img,.line5img img,.line6img2 img,.line7img1 img,.line7img2 img{
+	width: 100%;
+}
+.textline1 a,.textline11 a,.line2img1 a,.line2img2 a,.line4img1 a,.line4img2 a,.line6img1 a,.line6img2 a,.line7img1 a,.line7img2 a{
+	text-decoration: none;
+	list-style: none;
+	color: black;
+}
+.line5img2{
+	transform: translate(0,12.5%);
+}
+.line6img1{
+	position: relative;
+}
+.line6img11,.line6img12{
+	margin: 0;
+}
+.line6img12{
+	position: absolute;
+	right:0;
+	top:0;
+}
+
+
+@media screen and (max-width:767px){
+	.textline1img1,.textline1img2,.textline2img1,.textline2img2,.textline3img1,.textline3img2,.textline4img1,.textline4img2,.textline5img1,.textline5img2,.textline6img1,.textline6img2{
+		text-align: center;
+	}
+	}
+@media screen and (min-width:768px){
+	.textline1img1{
+		text-align: left;
+	}
+	.textline1img2,.textline2img1,.textline2img2,.textline3img1,.textline4img1,.textline5img2{
+		text-align: right;
+	}
+
+	.banner span{
+		font-size: 2.6rem;
+	}
+	.section-heading{
+		font-size: 1.5rem;
+		margin: 35px 0 0 0;
+	}
+	.text{
+		text-align: center;
+		font-size: 10pt;
+		margin:0 0 20px 0;
+	}
+	.line1img2,.line3img1{
+		transform: translate(0,10%);
+	}
+	.line2img1,.line4img2{
+		padding-right: 15px;
+		margin-top: 20px;
+	}
+	.line2img2{
+		transform: translate(0,-5%);
+		margin-top: 20px;
+	}
+	.line3img1{
+		padding-right: 30px;
+	}
+	.line3img2{
+		padding-left: 0;
+		padding-right: 30px;
+	}
+	.line4img1{
+		transform: translate(0,-15%);
+		margin-top: 20px;
+	}
+	.line4img2{
+		padding-left: 15px;
+		padding-right: 45px;
+	}
+	.line6img1{
+		transform: translate(0,15%);
+	}
+	.line6img2{
+		transform: translate(0,-15%);
+	}
+}
+@media screen and (min-width:1024px){
+	.banner span{
+		font-size: 3.5rem;
+	}
+	.section-heading{
+		font-size: 1.8rem;
+		margin: 45px 0 0 0;
+	}
+	.text{
+		font-size: 12pt;
+		margin: 0 0 30px 0;
+	}
+}

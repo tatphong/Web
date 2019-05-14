@@ -1,0 +1,242 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: futura;
+	src:url("../fonts/VNF-Futura Regular.ttf"),
+		url("../fonts/VNF-Futura Regular.eot"),
+		url("../fonts/VNF-Futura-Regular.otf")
+}
+@font-face{
+	font-family:  futura-med;
+	src:url("../fonts/FuturaBT-Medium.woff"),
+		url("../fonts/FuturaMediumBT.eot"),
+		url("../fonts/FuturaMediumBT.ttf")
+}
+a.hover{
+	color: #c77000;
+	transition: all ease .5s;
+	}
+	a.hover:hover{
+		color: #c77000;
+		transition: all ease .5s;
+	}
+	
+	.furlinnPreFall2019{
+		color: #000000;
+		font-family: futura-med;
+	}
+.newcollection{
+	font-size: 10pt;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-family: futura-med;
+	padding: 0;
+}
+.backtonature{
+	font-size: 30pt;
+	color: #c77000;
+	font-weight: bold;
+	padding: 0;
+	font-family: futura-med;
+	margin-top: 80px;
+}
+.furlinnPreFall2019{
+	font-size: 12pt;
+	padding: 0;
+}
+.forher{
+	font-size: 12pt;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: #c77000;
+	padding: 10px 0 0 5px;
+	font-family: futura-med;
+}
+.forhim{
+	font-size: 12pt;
+	margin-top: 25px;
+	margin-bottom: 5px;;
+	color: #c77000;
+	font-family: futura-med;
+}
+div.hinh1{
+	width: 80%;
+}
+div.hinh2{
+	margin: 0;
+	padding: 0;
+}
+.hinh2andtext{
+	margin: 0;
+	padding: 0;
+}
+div.hinh3{
+	padding: 0;
+	margin: 0;
+}
+div.hinh4{
+	padding: 0 0 0 0;
+	margin: 15px 0 0 0;	
+}
+
+
+.hinhchunhat{
+		height: 80px;
+		width: 30px !important;
+		background-color: #c77000;
+		flex:none;
+}
+div.hinhchunhat{
+	margin: 0;
+	padding: 0;
+}
+.containbox{
+	padding: 0;
+}
+@media screen and (min-width: 768px){
+	a.hover{
+	color: #c77000;
+		transition: all ease .5s;
+	}
+	a.hover:hover{
+		color: #c77000;
+		transition: all ease .5s;
+	}
+	
+	.furlinnPreFall2019{
+		color: #000000;
+	}
+	.hinh1{
+		width: 100%;
+	}
+	.newcollection{
+		font-size: 18pt;
+		margin-bottom: 10px;
+		font-weight: bold;
+		font-family: futura-med;
+		padding: 0;
+	}
+	.hinhchunhat{
+		height: 120px;
+		width: 40px !important;
+		background-color: #c77000;
+		flex:none;
+		margin-right: 60px;
+	}
+	.backtonature{
+		margin-top: 36px;
+		margin-left: 10px;
+		font-size: 34pt;
+		color: #c77000;
+		font-weight: bold;
+		padding: 0;
+		font-family: futura-med;
+	}
+	.furlinnPreFall2019{
+		font-size: 18pt;
+		padding: 0 0 10px 10px;
+	}
+	.forher{
+		font-size: 22pt;
+		margin-top: 40px;
+		margin-bottom: 10px;
+		color: #c77000;
+		padding: 0 10px;
+		font-family: futura-med;
+	}
+	.forhim{
+		font-size: 22pt;
+		margin-top: 50px;
+		padding-left: 44%;
+		color: #c77000;
+		font-family: futura-med;
+	}
+	.hinh4{
+		margin-top: 30px;
+	}
+	.hinh6{
+		margin: 50px 0 0 0;
+		padding-left: 10px;
+	}
+}
+@media screen and (min-width: 1024px){
+	a.hover{
+	color: #c77000;
+		transition: all ease .5s;
+	}
+	a.hover:hover{
+		color: #000000;
+		transition: all ease .5s;
+	}
+	.furlinnPreFall2019{
+		color: #000000;
+	}
+	.furlinnPreFall2019:hover{
+		color: #C77000;
+	}
+	.newcollection{
+		font-size: 20pt;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		font-weight: bold;
+		padding: 0;
+	}
+	.backtonature{
+		margin-top: 47px;
+		font-size: 60pt;
+		color: #c77000;
+		font-weight: bold;
+		padding-left: 20px;
+		font-family: futura-med;
+	}
+	.furlinnPreFall2019{
+		font-size: 19pt;
+		padding-left: 40px;
+	}
+	.forher{
+		font-size: 22pt;
+		margin-top: 30px;
+		margin-bottom: 20px;
+		color: #c77000;
+		padding-left: 15px;
+		font-family: futura-med;
+	}
+	.forhim{
+		font-size: 22pt;
+		margin-top: 40px;
+		color: #c77000;
+		font-family: futura-med;
+	}
+	.hinh4{
+		margin-top: 50px;
+	}
+	.hinh6{
+		margin: 50px 0 0 0;
+		padding-left: 10px;
+	}
+	.hinhchunhat{
+		height: 150px;
+		width: 40px !important;
+		background-color: #c77000;
+		flex:none;
+		margin-bottom: 50px;
+		margin-right: 50px;
+		padding: 0;
+	}
+}
+@media screen and (min-width: 1400px){
+	.newcollection{
+		font-size: 25pt;
+		margin-top: 40px;
+		margin-bottom: 20px;
+		font-weight: bold;
+	}
+	.backtonature{
+		font-size: 55pt;
+		color: #c77000;
+		font-weight: bold;
+		padding: 0;
+	}
+}
+

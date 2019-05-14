@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+.product-bst{
+	display: flex;
+}
+.text{
+	display: flex;
+}
+
+.discover{
+	text-align: center;
+}
+.discover .col-md-3,.discover .col-md-6 {
+	flex: auto;
+}
+.pr{
+	display: block;
+	float: left;
+	text-align: center;
+	margin: 4% 0 0 0 ;
+	padding: 0;
+}
+.pr img{
+	width: 95%;
+}
+.row-3 img, .row-4 img, .row-5 img{
+	width: 95%;
+}
+#img-sob{
+	width: 86%;
+}
+#img-sob-2{
+	margin-top: -20%;
+}
+.img-3{
+	width: 100%;
+	position: relative;
+}
+
+.arr{
+	font-size: 28px;
+}
+.arr:hover{
+	color: white;
+	font-size: 28px;
+}
+.shoes-sob{
+	margin-top: -14%;
+}
+/*Mobile*/
+@media screen and (max-width: 767px){
+	.col-1, .col-12, .txt-1{
+		padding: 0;
+	}
+	#txt-1{
+		padding: 0;
+	}
+	.row-3, .row-4, .row-5{
+		display: block;
+	}
+	.row-3 img, .row-4 img, .row-5 img{
+		width: 100%;
+	}
+	#img-sob{
+		width: 100%;
+	}
+	.text-1{
+		padding-left: 0;
+	}
+	.shoes-sob{
+		margin-top: auto;
+	}
+	button{
+		border: 1px solid black;
+		padding: 3px 4px;
+		background-color: transparent;
+		margin-top: -14%;
+		transition: all ease .5s;
+		text-align: center;
+	}
+	button:focus{
+		background-color: black;
+		color: white;
+		transition: all ease .5s;
+	}
+	p{
+		font-size: 14px;
+	}
+	.txt{ 
+		padding: 0 0px 0px 7%;
+	}
+	
+	h2{
+		font-size: 22px;
+	}
+	h4{
+		font-size: 16px;
+		line-height: 35px;
+	}
+	
+}
+/*Tablet*/
+@media screen and (min-width:768px){
+	.col-10,.col-md-10, .col-12, .col-1{
+		padding: 0;
+	}
+	.color-box{
+		height: 30%;
+	}
+	.txt{ 
+		padding: 0 0px 0px 5%;
+		font-size: 14px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	h4{
+		font-size: 18px;
+		line-height: 35px;
+	}
+	
+	.buy:hover{
+		background-color:black;
+		border: 1px solid black;
+		color: white;
+		transition: all ease .5s;
+		opacity: 1;
+}
+	.buy{
+		text-align: center;
+		border: 1px solid black;
+		background-color: transparent;
+		height: 30px;
+		transition: all ease .5s;
+		opacity: 0;
+		color: black;
+		z-index: 10;
+		position: absolute;
+		padding: 1px;
+		margin-top: 5%;
+		margin-left: 25%;
+		display: block;
+	}
+	
+}
+/*Desktop*/
+@media screen and (min-width:1024px){
+	.color-box{
+		height: 25%;
+	}
+	p{
+		font-size: 20px;
+	}
+	.row-3{
+		margin-top: -15%;
+	}
+	h2{
+		font-size: 41px;
+	}
+	h4{
+		font-size: 24px;
+		line-height: 35px;
+	}
+	.txt{
+		font-size: 16px;
+		padding: 0 0px 0px 7%;
+		margin-bottom: 35%;
+	}
+	.pr:hover .buy{
+		margin-top: -2%;
+		opacity: 1;
+	}
+	
+	.buy:hover{
+		background-color:black;
+		border: 1px solid black;
+		color: white;
+		transition: all ease .5s;
+		opacity: 1;
+}
+	.buy{
+		text-align: center;
+		border: 1px solid black;
+		background-color: transparent;
+		height: 30px;
+		transition: all ease .5s;
+		opacity: 0;
+		color: black;
+		z-index: 10;
+		position: absolute;
+		padding: 1px;
+		margin-top: 5%;
+		margin-left: 25%;
+		display: block;
+	}
+	
+}

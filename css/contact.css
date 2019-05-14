@@ -1,0 +1,313 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: futura;
+	src:url("../fonts/VNF-Futura Regular.ttf"),
+		url("../fonts/VNF-Futura Regular.eot"),
+		url("../fonts/VNF-Futura-Regular.otf")
+}
+@font-face{
+	font-family:  futura-med;
+	src:url("../fonts/FuturaBT-Medium.woff"),
+		url("../fonts/FuturaMediumBT.eot"),
+		url("../fonts/FuturaMediumBT.ttf")
+}
+body{
+	padding: 0;
+}
+.content{
+		margin-top: 50px;
+	}
+	.hinh1{
+		padding: 0;
+		text-align: center;
+	}
+	.contactus{
+		margin-top: 20px;
+		margin-bottom: 15px;
+		font-family: futura-med;
+		font-size: 16pt;
+		color: #c77000;
+		text-align: left;
+	}
+	.quote{
+		text-align: left;
+		/*color: #777;*/
+	}
+	.contactbackground{
+		background-color: #ffecbc;
+		margin-top: 40px;
+		padding: 15px 0 30px 0;
+	}
+	.contactbox{
+		margin-top: 0px;
+		padding: 15px 0;
+	}
+	.bymail, .bypost, .byphone, .inus{
+		text-align: left;
+		color: #c77000;
+	}
+	.bypost{
+		margin-top: 15px;
+		margin-bottom: 10px;
+	}
+	.byphone{
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	.info{
+		margin: 10px 0;
+	}
+	.email, .user{
+		width: 100%;
+		border: none;
+		background-color: #ffecbc;
+		border-bottom: solid 1px #000;
+	}
+	.sendbtn, .resetbtn{
+		width: 49%;
+		line-height: 30px;
+		margin-top: 20px;
+	}
+	.sendbtn{
+		color: #fff;
+		background-color: #000;
+		border: solid 1px #000;
+	}
+	.resetbtn{
+		color: #000;
+		background-color: #fff;
+		border: solid 1px #000;
+	}
+	.otherway{
+		padding: 0;
+	}
+
+	.store{
+		padding: 0;
+	}
+	.storename{
+		color: #c77000;
+		font-size: 16pt;
+		padding-top: 0 ;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.address{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.hinh{
+		padding: 0;
+		margin-top: 35px ;
+	}
+	.us, .vietnam, .korea, .france, .germany{
+		height: 200px;
+		padding: 45px 0;
+	}
+	.vietnam, .france{
+		background-color: #ffecbc;
+	}
+@media screen and (min-width: 768px){
+	.content{
+		margin-top: 50px;
+	}
+	.hinh1{
+		padding: 0;
+		margin: 0;
+	}
+	.otherway{
+		padding: 0 10px;
+		margin: 0;
+	}
+	.contactus{
+		margin-top: 30px;
+		margin-bottom: 10px;
+		font-family: futura-med;
+		font-size: 18pt;
+		color: #c77000;
+		text-align: left;
+	}
+	.quote{
+		text-align: left;
+		/*color: #777;*/
+	}
+	.contactbackground{
+		background-color: #ffecbc;
+		margin-top: 50px;
+		padding: 0;
+		height: 463px;
+	}
+	.bymail, .bypost, .byphone, .inus{
+		text-align: left;
+		color: #c77000;
+	}
+	.bypost{
+		margin-top: 15px;
+		margin-bottom: 10px;
+	}
+	.byphone{
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	.info{
+		margin: 10px 0;
+	}
+	#email, #user{
+		width: 325px;;
+	}
+	.sendbtn, .resetbtn{
+		margin-top: 15px;
+		width: 100px;
+		line-height: 30px;
+	}
+	.sendbtn{
+		color: #fff;
+		background-color: #000;
+		border: solid 1px #000;
+	}
+	.resetbtn{
+		color: #000;
+		background-color: #fff;
+		border: solid 1px #000;
+	}
+	.ourstore{
+		margin-top: 50px;
+		font-family: futura-med;
+		font-size: 18pt;
+		color: #c77000;
+		text-align: center;
+	}
+	.store{
+		margin: 30px 0;
+		padding: 0;
+	}
+	.us, .korea, .germany{
+		text-align: left;
+	}
+	.storename{
+		margin-top: 50px;
+		margin-bottom: 10px;
+		color: #c77000;
+	}
+.address{
+	padding-left: 30px;
+}
+	.hinh{
+		padding: 0;
+		margin-top: 25px 
+	}
+	.us, .vietnam, .korea, .france, .germany{
+		padding: 0;
+	}
+	.vietnam, .france{
+		background-color: #fff;
+	}
+}
+@media screen and (min-width: 1024px){
+	.content{
+		margin-top: 50px;
+	}
+	.hinh1{
+		padding: 0;
+		margin: 0;
+	}
+	.otherway{
+		padding: 0 20px;
+		margin: 0;
+	}
+	.contactus{
+		margin-top: 60px;
+		margin-bottom: 20px;
+		font-family: futura-med;
+		font-size: 20pt;
+		color: #c77000;
+		text-align: left;
+	}
+	.quote{
+		text-align: left;
+		/*color: #777;*/
+	}
+	.contactbackground{
+		background-color: #ffecbc;
+		margin-top: 50px;
+		padding: 0;
+		height: 617px;
+	}
+	.inus{
+		text-align: left;
+		color: #c77000;
+	}
+	.info{
+		margin: 10px 0;
+	}
+	#email, #user{
+		width: 100%;
+	}
+	.sendbtn, .resetbtn{
+		width: 90px;
+		line-height: 30px;
+		margin-top: 20px;
+	}
+	.sendbtn{
+		color: #fff;
+		background-color: #000;
+		border: solid 1px #000;
+		transition: ease all 0.5s;
+	}
+	.resetbtn{
+		color: #000;
+		background-color: transparent;
+		border: solid 1px #000;
+		transition: ease all 0.5s;
+	}
+	.sendbtn:hover{
+		background-color: #c77000;
+		border: solid 1px #c77000;
+		color: #fff;
+		transition: ease all 0.5s;
+	}
+	.resetbtn:hover{
+		background-color: #c77000;
+		border: solid 1px #c77000;
+		color: #fff;
+		transition: ease all 0.5s;
+	}
+	.ourstore{
+		margin-top: 50px;
+		font-family: futura-med;
+		font-size: 20pt;
+		color: #c77000;
+		text-align: center;
+	}
+	.store{
+		margin: 30px 0;
+		padding: 0;
+	}
+	
+	.storename{
+
+		color: #c77000;
+		font-size: 22pt;
+		padding-top: 90px ;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.address{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.hinh{
+		padding: 0;
+		margin-top: 25px 
+	}
+	.us, .vietnam, .korea, .france, .germany{
+		padding: 0;
+	}
+}
+@media screen and (min-width: 1200px){
+	.hinh1 img{
+		height: 96%;
+	}
+}
+

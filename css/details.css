@@ -1,0 +1,631 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: futura;
+	src:url("../fonts/VNF-Futura Regular.ttf"),
+		url("../fonts/VNF-Futura Regular.eot"),
+		url("../fonts/VNF-Futura-Regular.otf")
+}
+@font-face{
+	font-family:  futura-med;
+	src:url("../fonts/FuturaBT-Medium.woff"),
+		url("../fonts/FuturaMediumBT.eot"),
+		url("../fonts/FuturaMediumBT.ttf")
+}
+.multi-slider2 img{
+	width: 90%;
+}
+.multi-slider3 img{
+	width: 90%;
+}
+body{
+	font-family: futura;
+	padding: 0;
+	font-size: 15px;
+}
+.content{
+	margin-top: 50px;
+}
+div.productdetail .mobileslider{
+	padding: 0;
+}
+.detailboxtext{
+	padding: 0;
+}
+.tensanpham{
+	color: #c77000;
+	font-family: futura-med;
+	font-size: 14pt;
+}
+.masanpham{
+	color: #999;
+	font-family: futura;
+}
+.cost{
+	font-weight: bold;
+	font-family: futura;
+	margin: 10px 0;
+}
+.color ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: block;
+}
+.color ul li{
+	float: left;
+	margin-right: 5px;
+	text-align: left;
+}
+.color ul li.color1{
+	height: 20px;
+	width: 30px;
+	background-color: #B9B802;
+}
+.color ul li.color2{
+	height: 20px;
+	width: 30px;
+	background-color: #0076C0;
+}
+.size, .dropdown, .quantity{
+	padding: 0;
+	margin: 5px 0;		
+}
+.dropdown select{
+	background-color: #fff;
+	width: 100px;
+	color: #777;
+	text-indent: 5%;
+	text-align: center;
+	height: 30px;
+	border: solid 1px #ccc;
+		
+}
+em{
+	font-size: 12pt;
+	font-family: futura;
+	color: #777;
+}
+div.addtocart {
+	text-align: center;
+	margin: 50px 0 5px 0;
+}
+div.addtowistlist{
+	text-align: center;
+	margin: 10px 0 5px 0;
+}
+div.addtocart a{
+	background-color: #000;
+	color: #fff ;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+}
+div.addtowistlist a{
+	border: 1px solid #000;
+	background-color: #fff;
+	color: #000 ;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+}
+.discription{
+	margin-top: 50px;
+	margin-bottom: 40px;
+	font-family: futura-med;
+}
+hr{
+	margin-top: 12px;
+	width: 90%;
+}
+div.col-3{
+	padding: 0;
+}
+.youmayalsolike, .recentlyviewed{
+	text-align: center;
+	color: #c77000;
+	padding: 0;
+	margin: 0;
+	font-size: 12pt;
+	font-family: futura-med;
+}
+.abc{
+	display: flex;
+}
+.nextbtn, .prevbtn{
+	height: 32px;
+	width: 35px;
+	border: solid 1px #000;
+	color: #000;
+	position: absolute;
+	margin: 10px 0;
+	padding: 0 10px;
+	background-color: #fff;
+	}
+.nextbtn{
+	right: 35%;
+}
+.prevbtn{
+	left: 35%;
+}
+.reviews{
+	margin-top: 40px;
+	max-width: 130px;
+	color: #000;
+	background-color: #fff;
+	border: solid 1px #000;
+	height: 28px;
+	line-height: 28px;	
+	text-align: center;
+}
+div.writereview{
+	padding: 0;
+}	
+div.reviews{
+	padding: 0;
+}
+.writereview{ 
+	margin: 20px 0 40px 15px;
+	max-width: 130px;
+	color: #fff;
+	background-color: #000;
+	line-height: 28px;
+	text-align: center;
+}
+.reviewcontent{
+	margin-bottom: 50px;
+	padding: 0;
+	margin: 10px 0;
+}
+.writereviewbox{
+	margin-bottom: 50px;
+}
+.reviewcontent{
+	font-size: 10pt;
+}
+.sendbtn{
+	width: 115px;
+	color: #fff;
+	background-color: #000;
+	border:solid 1pt #000;
+	height: 30px;
+	line-height: 26px;
+	margin-top: 10px;
+	margin-right:5px;
+}
+.resetbtn{
+	width: 115px;
+	color: #000;
+	background-color: #fff;
+	border:solid 1pt #000;
+	height: 30px;
+	line-height: 26px;
+	margin-top: 10px
+}
+	
+.recentlyviewedsklider{
+	margin-bottom: 80px;
+	margin-top: 50px;	
+}
+.youmayalsolikeslider{
+	margin: 50px 0 80px 0;
+}
+.recentlyproductname, .alsolikeproductname{
+	margin-top: 10px;
+	text-align: center;
+}
+@media screen and (min-width: 768px){
+	.path{
+		background-color: #c77000;
+		height: 25px;
+		line-height: 25px;
+		color: #fff;
+		margin-bottom: 20px;
+		font-size: 10pt;
+	}
+	.polygon{
+		max-width: 70%;
+		-webkit-clip-path: polygon(0 0, 0% 100%, 40% 0);
+		clip-path: polygon(0 0, 0% 100%, 40% 0);
+	}
+	.tensanpham{
+		color: #c77000;
+		font-size: 14pt;
+		font-family: futura-med;
+		margin-top: 50px;
+	}
+	.masanpham{
+		color: #999;
+		font-family: futura;
+	}
+	.cost{
+		font-weight: bold;
+		font-family: futura;
+		margin: 10px 0;
+		
+	}
+	.color ul{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		display: block;
+	}
+	.color ul li{
+		float: left;
+		margin-right: 5px;
+		text-align: left;
+	}
+	.color ul li.color1{
+		height: 20px;
+		width: 30px;
+		background-color: #B9B802;
+	}
+	.color ul li.color2{
+		height: 20px;
+		width: 30px;
+		background-color: #0076C0;
+	}
+	.size, .dropdown, .quantity{
+		padding: 0;
+		margin-top: 5px;
+		
+	}
+	.dropdown select{
+		background-color: #fff;
+		width: 100px;
+		color: #777;
+		text-indent: 4%;
+		text-align: center;
+		height: 30px;
+		
+	}
+	em{
+		font-size: 12pt;
+		font-family: futura;
+		color: #777;
+	}
+	div.addtocart {
+		text-align: center;
+		margin: 50px 0 5px 0;
+	}
+	div.addtowistlist{
+		text-align: center;
+		margin: 10px 0 5px 0;
+	}
+	div.addtocart a{
+		background-color: #000;
+		color: #fff ;
+		display: block;
+		height: 40px;
+		line-height: 40px;
+	}
+	div.addtowistlist a{
+		border: 1px solid #000;
+		background-color: #fff;
+		color: #000 ;
+		display: block;
+		height: 40px;
+		line-height: 40px;
+	}
+	.hinh2{
+		margin: 30px 0;
+	}
+	.discription{
+		margin-top: 50px;
+		font-family: futura-med;
+	}
+	.hinh4, .hinh5{
+		margin-bottom: 50px;
+	}
+	hr{
+		margin-top: 20px;
+	}
+	.youmayalsolike, .recentlyviewed{
+		text-align: center;
+		color: #c77000;
+		padding: 0;
+		margin: 0;
+		font-size: 16pt;
+		font-family: futura-med;
+	}
+	.abc{
+		display: flex;
+	}
+	.nextbtn, .prevbtn{
+		height: 32px;
+		width: 35px;
+		border: solid 1px #000;
+		color: #000;
+		position: absolute;
+		margin: 10px 0;
+		padding: 0 10px;
+		background-color: #fff;
+	}
+	.nextbtn{
+		right: 43%;
+	}
+	.prevbtn{
+		left: 43%;
+	}
+	.reviews{
+		margin-top: 40px;
+		max-width: 130px;
+		color: #000;
+		background-color: #fff;
+		border: solid 1px #000;
+		height: 28px;
+		line-height: 28px;	
+		text-align: center;
+	}
+	
+	.writereview{ 
+		margin-top: 40px;
+		margin-left: 305px;
+		max-width: 130px;
+		color: #fff;
+		background-color: #000;
+		line-height: 28px;
+		text-align: center;
+	}
+	.reviewcontent{
+		margin-bottom: 50px;
+		padding: 0;
+		margin: 10px 0;
+	}
+	.writereviewbox{
+		margin: 10px 0;
+		margin-bottom: 50px;
+	}
+	.reviewcontent{
+		font-size: 10pt;
+	}
+	.sendbtn{
+		width: 115px;
+		color: #fff;
+		background-color: #000;
+		border:solid 1pt #000;
+		height: 30px;
+		line-height: 26px;
+		margin-top: 10px;
+		margin-right:5px;
+	}
+	.resetbtn{
+		width: 115px;
+		color: #000;
+		background-color: #fff;
+		border:solid 1pt #000;
+		height: 30px;
+		line-height: 26px;
+		margin-top: 10px
+	}
+	
+	.recentlyviewedsklider{
+		margin-bottom: 80px;
+		margin-top: 50px;
+		
+	}
+	.youmayalsolikeslider{
+		margin: 50px 0 80px 0;
+	}
+	.recentlyproductname, .alsolikeproductname{
+		margin-top: 10px;
+		text-align: center;
+	}
+}
+@media screen and (min-width: 1024px){
+	.path{
+		background-color: #c77000;
+		height: 30px;
+		line-height: 30px;
+		color: #fff;
+		margin-bottom: 20px;
+		font-size: 10pt;
+	}
+	.polygon{
+		max-width: 70%;
+		-webkit-clip-path: polygon(0 0, 0% 100%, 40% 0);
+		clip-path: polygon(0 0, 0% 100%, 40% 0);
+	}
+	.tensanpham{
+		margin-top: 50px;
+		color: #c77000;
+		font-family: futura-med;
+		font-size: 16pt;
+	}
+	.masanpham{
+		color: #999;
+		font-family: futura;
+	}
+	.cost{
+		font-weight: bold;
+		font-family: futura;
+		margin: 10px 0;
+		
+	}
+	.color ul{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		display: block;
+	}
+	.color ul li{
+		float: left;
+		margin-right: 5px;
+		text-align: left;
+	}
+	.color ul li.color1{
+		height: 20px;
+		width: 30px;
+		background-color: #B9B802;
+	}
+	.color ul li.color2{
+		height: 20px;
+		width: 30px;
+		background-color: #0076C0;
+	}
+	.size, .dropdown, .quantity{
+		padding: 0;
+		margin-top: 5px;
+	}
+	.dropdown select{
+		background-color: #fff;
+		width: 100px;
+		color: #777;
+		text-indent: 5%;
+		text-align: center;
+		height: 30px;
+	}
+	em{
+		font-size: 12pt;
+		font-family: futura;
+		color: #777;
+	}
+	div.addtocart , div.addtowistlist{
+		text-align: center;
+		margin: 10px 0 5px 0;
+	}
+	div.addtocart a{
+		background-color: #000;
+		color: #fff ;
+		display: block;
+		height: 40px;
+		line-height: 40px;
+	}
+	div.addtocart a:hover{
+		background-color: #c77000;
+		border: solid 1px #c77000;
+		color: #fff;
+		transition: ease all 0.5s;
+	}
+	div.addtowistlist a{
+		border: 1px solid #000;
+		background-color: #fff;
+		color: #000 ;
+		display: block;
+		height: 40px;
+		line-height: 40px;
+	}
+	div.addtowistlist a:hover{
+		background-color: #c77000;
+		border: solid 1px #c77000;
+		color: #fff;
+		transition: ease all 0.5s;
+	}
+	.hinh2{
+		margin: 30px 0;
+	}
+	.discription{
+		margin-top: 50px;
+		font-family: futura-med;
+	}
+	.hinh4, .hinh5{
+		margin-bottom: 50px;
+	}
+	hr{
+		margin-top: 20px;
+	}
+	.youmayalsolike, .recentlyviewed{
+		text-align: center;
+		color: #c77000;
+		padding: 0;
+		margin: 0;
+		font-size: 20pt;
+		font-family: futura-med;
+	}
+	.abc{
+		display: flex;
+	}
+	.nextbtn, .prevbtn{
+		height: 32px;
+		width: 35px;
+		border: solid 1px #000;
+		color: #000;
+		position: absolute;
+		margin: 10px 0;
+		padding: 0 10px;
+		background-color: #fff;
+	}
+	.sendbtn:hover{
+		background-color: #c77000;
+		border: solid 1px #c77000;
+		color: #fff;
+		transition: ease all 0.5s;
+	}
+	.resetbtn:hover{
+		background-color: #c77000;
+		border: solid 1px #c77000;
+		color: #fff;
+		transition: ease all 0.5s;
+	}
+	.nextbtn{
+		right: 45%;
+	}
+	.prevbtn{
+		left: 45%;
+	}
+	.reviews{
+		margin-top: 40px;
+		max-width: 150px;
+		color: #000;
+		background-color: #fff;
+		border: solid 1px #000;
+		height: 28px;
+		line-height: 28px;	
+		text-align: center;
+	}
+	a.morereview:hover{
+		color: #c77000;
+	}
+	.writereview{ 
+		margin-top: 40px;
+		margin-left: 425px;
+		max-width: 150px;
+		color: #fff;
+		background-color: #000;
+		line-height: 28px;
+		text-align: center;
+	}
+	.reviewcontent{
+		margin-bottom: 50px;
+		padding: 0;
+		margin: 10px 0;
+	}
+	.writereviewbox{
+		margin: 10px 0;
+		margin-bottom: 50px;
+	}
+	.reviewcontent{
+		font-size: 10pt;
+	}
+	.sendbtn{
+		width: 100px;
+		color: #fff;
+		background-color: #000;
+		border:solid 1pt #000;
+		height: 30px;
+		line-height: 26px;
+		margin-top: 5px
+	}
+	.resetbtn{
+		width: 100px;
+		color: #000;
+		background-color: #fff;
+		border:solid 1pt #000;
+		height: 30px;
+		line-height: 26px;
+		margin-top: 5px
+	}
+	
+	.recentlyviewedsklider{
+		margin-bottom: 80px;
+		margin-top: 50px;
+		
+	}
+	.youmayalsolikeslider{
+		margin: 50px 0 80px 0;
+	}
+	.recentlyproductname, .alsolikeproductname{
+		margin-top: 10px;
+		text-align: center;
+	}
+}

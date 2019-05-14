@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document */
+.us2 input, .us2 select{
+	height: 25px;
+}
+
+.us2{
+	display: flex;
+	margin-top: 8%;
+}
+.sl-add{
+	display: flex;
+}
+.product{
+	position: relative;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.product img{
+	width: 100%;
+	-webkit-transition-duration: 500ms;
+      transition-duration: 500ms;
+}
+#add, .add-inner{
+	background-color: white;
+	border: solid 1px black;
+	transition: all ease .5s;
+	
+}
+#add:hover, .add-inner:hover{
+	background-color: #c77000;
+	border: 1px solid #c77000; 
+	color: white;
+	transition: all ease .5s;
+}
+.product p{
+	color: black;
+	margin: 0;
+	padding: 0;
+	font-size: 1rem;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.product .hoverimg{
+	position: absolute;
+	z-index: 10;
+	opacity: 0;
+	float: left;
+	padding-right: 30px;
+	transition: all ease .5s;
+}
+.product:hover .hoverimg{
+	opacity: 1;
+	transition: all ease .8s;
+	width: 100%;
+}
+
+.pagination {
+  display: inline-block;
+	margin-bottom: 20px;
+	margin: 0 auto;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: none;
+  margin: 0 4px;
+}
+.pagination a.active {
+  color: #C77000;
+}
+@media screen and (max-width: 767px){
+	.sl-add{
+		display:block;
+	}
+	#add{
+		margin: 4% 0 0 7%;
+	}
+	.us2{
+		margin-top: 20%;
+		
+		margin-left: 4%;
+	}
+}
+@media screen and (min-width:768px){
+	#add{
+		margin: 0;
+	}
+	.products p{
+		margin: 0px;
+	}
+	.hoverimg{
+	width: 240px;
+}
+	.product p{
+		margin-bottom: 30px;
+	}
+	.us2{
+		margin-top: 12%;
+		
+		margin-left: auto;
+	}
+}
+@media screen and (min-width:992px){
+	.us2{
+		margin-top: 8%;
+	}
+	.products{
+		padding: 0;
+	}
+	.hoverimg img{
+		width: 290px;
+	}
+	.product p{
+		margin-bottom: 40px;
+	}
+}
+@media screen and (min-width:1024px){
+	.sort{
+		padding-left: 8%;
+	}
+	.us2{
+		margin-left: 6%;
+	}
+}

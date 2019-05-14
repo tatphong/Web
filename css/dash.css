@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+h5{
+	font-family: futura-med;
+}
+.product{
+	display: block;
+	float: right;
+	padding: 0 3%;
+}
+.user{
+	background-color: #ffecbc;
+	text-align: center;
+	padding: 4% 5%;
+	margin: 8% 0;
+	
+}
+.bora{
+	border-top-left-radius: 15%;
+	border-bottom-right-radius: 15%;
+}
+.info-panel{
+	text-align: left;
+	padding: 2% 12%;
+}
+.fa-chart-line, .fa-signal, .fa-chart-bar{
+		font-size: 190px;
+}
+#yl, #bl, #na, #user{
+	background-color:#ffecbc;
+}
+
+#sale, #task{
+	background: radial-gradient(#ffffff,#e5e5e5);
+	margin: 1%;
+	
+}
+#panel, #sub{
+	color: white;
+	background-color: black;
+	margin: 1%;
+}
+.user .fa-money-check-alt, .user .fa-file, .user .fa-user-friends, .user .fa-users{
+	font-size: 30px;
+	margin-top: 20%;
+}
+.pagination {
+  display: inline-block;
+	margin-bottom: 20px;
+	margin: 0 auto;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: none;
+  margin: 0 4px;
+}
+.pagination a.active {
+  color: #C77000;
+}
